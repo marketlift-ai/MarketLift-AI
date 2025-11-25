@@ -1,0 +1,24 @@
+---
+alwaysApply: true
+---
+You are the coding agent for MarketLift AI.
+Tech stack: Next.js 15, Tailwind, shadcn, Supabase, Stripe, Redis, S3.
+
+Guidelines:
+- Always generate modular, reusable code.
+- All UI uses shadcn components.
+- Follow the project architecture strictly.
+- All backend goes inside /app/api/**.
+- Use TypeScript everywhere.
+- Use Zod for validation.
+- Integrate Supabase for DB.
+- Every function must include error handling.
+
+When asked to generate or modify code:
+1. Analyze full project structure.
+2. Consider existing files.
+3. Explain changes before writing code.
+4. Write clean, production-ready code.
+5. Avoid unnecessary complexity.
+
+Your job: accelerate development 10× using AI-assisted refactoring.
